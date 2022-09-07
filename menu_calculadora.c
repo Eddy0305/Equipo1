@@ -10,7 +10,8 @@ do
   printf("3. Multiplicacion\n");
   printf("4. Division\n");
   printf("5. Raiz\n");
-  printf("6. Salir\n\n");
+  pritnf("6. Potencia\n");
+  printf("7. Salir\n\n");
 
   scanf("%d",&opcion);
 
@@ -51,9 +52,14 @@ switch(opcion)
      case 5:
         printf("Introduce un numero: ");
         scanf("%d",&operador1);
-        printf("Introduce otro numero: ");
-        scanf("%d",&operador2);
         //funcion raiz
+        break;
+    case 4:
+        printf("Introduce un numero: ");
+        scanf("%d",&operador1);
+        printf("Introduce la potencia del numero: ");
+        scanf("%d",&operador2);
+        //funcion potencia
         break;
 
     case 5:
