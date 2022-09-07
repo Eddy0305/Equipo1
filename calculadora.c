@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+#include<math.h>
 
 float suma(float num1, float num2)
 {
@@ -25,4 +25,10 @@ float div;
 return div=(n/d);
 
   
+}
+
+
+double potencia(float num1, float potencia){
+  double resultado = (double)pow(num1, potencia);
+  return resultado; 
 }
