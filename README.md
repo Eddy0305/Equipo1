@@ -1,5 +1,7 @@
 # Equipo1
-Ejercicio en equipo SO
+Ejercicio:
+Hacer una calculadora basica
+usando github
 
 
-PARO! PARO!
+
