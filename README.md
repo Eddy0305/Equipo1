@@ -1,5 +1,12 @@
 # Equipo1
-Ejercicio en equipo SO
 
+#include <math.h>
 
-PARO! PARO!
+Raíz(){
+  float dato, raiz;
+  cout << "Número del cual necesita la raiz cuadrada:"; 
+  cin >> dato;
+  raiz = sqrt(dato);
+  cout << "La raiz cuadrada de " << dato << " es " << raiz << endl; 
+  return 0; 
+}
