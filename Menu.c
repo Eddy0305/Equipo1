@@ -18,6 +18,11 @@ scanf("%d", &a);
 
 switch (a) {
 	case 1:
+	float multiplicacion(num1, num 2) {
+		float resul;
+		resul = num1 * num2;
+		return resutl;
+	}
 	break;
 	case 2:
 	break;
