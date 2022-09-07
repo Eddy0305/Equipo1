@@ -32,3 +32,12 @@ double potencia(float num1, float potencia){
   double resultado = (double)pow(num1, potencia);
   return resultado; 
 }
+
+Raíz(){
+  double dato, raiz;
+  printf("Número del cual necesita la raiz cuadrada:"); 
+  scanf ("%f",&dato);
+  raiz = sqrt(dato);
+  printf("La raiz cuadrada de %f es: %f " , dato, raiz); 
+  return 0;
+}
