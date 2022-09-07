@@ -20,3 +20,9 @@ float resta(float num1, float num2)
 
   return total;
 }
+float division (float n, float n2 ){
+float div;
+return div=(n/d);
+
+  
+}
