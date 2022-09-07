@@ -19,6 +19,6 @@ scanf("%d", &a);
 switch (a) {
 	case 1:
 	break;
-	case2:
+	case 2:
 	break;
 }
